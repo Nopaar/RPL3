@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Message</title>
+
+    <link rel="stylesheet" href="src/style.css" />
+
+    <link
+      rel="icon"
+      href="Image/logo.jpg"
+    />
+    <bgsound src="https://cdn.discordapp.com/attachments/873089654667235348/875760019726008401/chilled-acoustic-indie-folk-instrumental-background-music-for-videos-5720.mp3" loop="infinite">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="aos/aos.css" />
+
+    <meta name="theme-color" content="#ADD8E6" />
+  </head>
+
+  <body>
+
+    <div id="particles-js"></div>
+
+    <div class="scroll-up-btn">
+      <i><img src="Image/up.svg" alt="arrow-up"></i>
+    </div>
+
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo">
+          <a href="#home">XII RPL 3<span></span></a>
+        </div>
+
+        <ul class="menu">
+          <li><a href="index.html" class="menu-btn">Home</a></li>
+        </ul>
+
+        <button class="hamburger">
+          <div class="bar"></div>
+        </button>
+
+      </div>
+    </nav>
+
+
+    <nav class="mobile-nav">
+      <a href="index.html">Home</a>
+    </nav>
+
+    <section class="home" id="home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-2">XII RPL 3</div>
+          
+          <div class="text-1">Send any messages about our class website or private confess</div>
+
+          <a data-aos="fade" class="this-is-pain" href="https://www.instagram.com/11pplgthree">Instagram</a>
+          </div>
+      </div>
+    </section>
+
+<section>
+    <div class="message-container">
+        <form class="message-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="input-field">
+
+            <label for="country">Country</label>
+           <select id="country" class="input-field">
+  <option  value="Indonesia" selected>Indonesia</option>
+            <label for="message">Message Or Private Confess</label>
+            <textarea id="message" class="input-field"></textarea>
+            <button type="button" onclick="sendwhatsapp();">Send Message</button>
+        </form>
+    </div>
+</section>
+      
+    <div class="loader-wrapper">
+      <img
+
+      />
+
+      <div class="longfazers">
+        <span></span>
+
+        <span></span>
+
+        <span></span>
+
+        <span></span>
+      </div>
+    </div>
+
+    <footer>
+      <span>Made by
+        <a href="https://www.instagram.com/@nov444r" target="_blank">CodeAL</a></span>
+
+    </footer>
+
+    <script src="aos/aos.js"></script>
+
+    <script type="text/javascript">
+      AOS.init({
+        duration: 1000
+      });
+    </script>
+
+    <script src="src/script.js"></script>
+
+    <script>
+      $(window).on("load", function() {
+        $(".loader-wrapper").fadeOut("slow");
+      });
+    </script>
+  </body>
+</html>
